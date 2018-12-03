@@ -3,9 +3,13 @@ from card import Card
 from usaMoney import USA
 from deck import Deck 
 
-def yOn(q) :
+def yOn(question) :
+    """Prompts the user with a question passed as a parameter, and expects a yes or no answer.
+    Returns True if user answers yes
+    Returns False if user answers no
+    Loops until it receives one of those answers"""
     while True:
-        answer = input(q + " [Y | N] ")
+        answer = input(question + " [Y | N] ")
         answer = answer.lower()
 
         if answer == 'y' or answer == 'yes' :
