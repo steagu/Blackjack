@@ -1,8 +1,7 @@
-#This project is still in progress.
+# This project is still in progress.
 
-This project is a work in progress. From time to time when I have some spare time I like to work on this project to 
-build a working Blackjack game to be played against a computer dealer. Since this is a work in progress, I 
-would not recommend trying to run any of these scripts, but feel free to open them to look at my source code 
-so far. 
+This project is intended to be a one-player command line Blackjack game against a computer. It is still a work in progress.
+I started this project about a year ago, and set it aside for a while. Now, as I look at it again, I am a little horified by
+some elements of its design, and I need to go back and adjust a lot of it. 
 
-I do not currently have a timeline on when I expect to finish this project.
+# I do not recommend running any of these Python scripts at this time!
